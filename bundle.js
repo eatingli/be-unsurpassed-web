@@ -95,7 +95,7 @@
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "03523cf578d69fa923226ff457b92d90.ttf");
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "assets/fonts/Roboto/Roboto-Regular.ttf");
 
 /***/ }),
 
@@ -108,7 +108,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "ee2f9411fc0bec99c05ed933b96d2451.otf");
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "assets/fonts/SourceHanSansTC/SourceHanSansTC-Bold.otf");
 
 /***/ }),
 
@@ -121,7 +121,20 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "5384310b7f86073b6ace5104a511043a.otf");
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "assets/fonts/SourceHanSansTC/SourceHanSansTC-Normal.otf");
+
+/***/ }),
+
+/***/ "./assets/images/b-result.png":
+/*!************************************!*\
+  !*** ./assets/images/b-result.png ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "assets/images/b-result.png");
 
 /***/ }),
 
@@ -134,7 +147,33 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "8c8202bdacd18967f84b6fcdeae32dcd.jpg");
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "assets/images/background.jpg");
+
+/***/ }),
+
+/***/ "./assets/images/baseline_close_black_18dp.png":
+/*!*****************************************************!*\
+  !*** ./assets/images/baseline_close_black_18dp.png ***!
+  \*****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "assets/images/baseline_close_black_18dp.png");
+
+/***/ }),
+
+/***/ "./assets/images/mrt-map.jpg":
+/*!***********************************!*\
+  !*** ./assets/images/mrt-map.jpg ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "assets/images/mrt-map.jpg");
 
 /***/ }),
 
@@ -158,7 +197,7 @@ var ___CSS_LOADER_URL_REPLACEMENT_1___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_
 var ___CSS_LOADER_URL_REPLACEMENT_2___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_2___);
 var ___CSS_LOADER_URL_REPLACEMENT_3___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_3___);
 // Module
-exports.push([module.i, "@font-face {\r\n  font-family: \"Roboto\";\r\n  src: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") format(\"truetype\");\r\n  font-weight: normal;\r\n  font-style: normal;\r\n}\r\n\r\n@font-face {\r\n  font-family: \"SourceHanSansTC\";\r\n  src: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\r\n  font-weight: normal;\r\n  font-style: normal;\r\n}\r\n\r\n@font-face {\r\n  font-family: \"SourceHanSansTC\";\r\n  src: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ");\r\n  font-weight: bold;\r\n  font-style: normal;\r\n}\r\n\r\n* {\r\n  font-family: \"SourceHanSansTC\", \"Roboto\", sans-serif;\r\n}\r\n\r\nbody {\r\n  margin: 0;\r\n  background-color: black;\r\n}\r\n\r\n#container {\r\n  height: 100vh;\r\n  /* 背景 */\r\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_3___ + ");\r\n  background-repeat: no-repeat;\r\n  background-attachment: fixed; /* 固定在頁面上 */\r\n  background-size: auto 100%; /* 寬度自動 高度符合頁面 */\r\n  background-position: 78% 0%; /* x左平移 y不變 */\r\n  /* Layout */\r\n  display: flex;\r\n  flex-direction: column;\r\n}\r\n\r\n#header {\r\n  height: 48px;\r\n  background-color: rgba(0, 0, 0, 0.7);\r\n  /* Layout */\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n}\r\n\r\n#header p {\r\n  font-size: 22px;\r\n  color: #fff;\r\n  letter-spacing: 1px;\r\n}\r\n\r\n#form {\r\n  margin: auto 0px auto 0px;\r\n  padding: 0px 20px 0px 20px;\r\n  /* Layout */\r\n  display: flex;\r\n  flex-direction: column;\r\n  justify-content: center;\r\n}\r\n\r\n#form * {\r\n  height: 40px;\r\n  margin: 8px 0px 8px 0px;\r\n  font-size: 20px;\r\n  color: #333333;\r\n}\r\n\r\n#form input {\r\n  background-color: rgba(255, 255, 255, 0.8);\r\n  border: 0px;\r\n}\r\n\r\n#form #actions {\r\n  display: flex;\r\n  flex-direction: row;\r\n  justify-content: space-between;\r\n}\r\n\r\n#form #actions input {\r\n  flex: 1;\r\n  background-color: rgba(255, 255, 255, 0.8);\r\n  border: 0px;\r\n}\r\n\r\n#form #actions .space {\r\n  width: 10%;\r\n}\r\n\r\n#result {\r\n  margin: auto 20px auto 20px;\r\n  padding: 12px;\r\n  background-color: rgba(255, 255, 255, 0.8);\r\n  border-radius: 10px;\r\n  color: #333333;\r\n}\r\n\r\n#result * {\r\n  margin: 0px;\r\n}\r\n\r\n#result #title {\r\n  font-size: 26;\r\n  font-weight: bold;\r\n}\r\n\r\n#result #content {\r\n  font-size: 20;\r\n}\r\n", ""]);
+exports.push([module.i, "@font-face {\r\n  font-family: \"Roboto\";\r\n  src: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") format(\"truetype\");\r\n  font-weight: normal;\r\n  font-style: normal;\r\n}\r\n\r\n@font-face {\r\n  font-family: \"SourceHanSansTC\";\r\n  src: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\r\n  font-weight: normal;\r\n  font-style: normal;\r\n}\r\n\r\n@font-face {\r\n  font-family: \"SourceHanSansTC\";\r\n  src: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ");\r\n  font-weight: bold;\r\n  font-style: normal;\r\n}\r\n\r\n* {\r\n  font-family: \"SourceHanSansTC\", \"Roboto\", sans-serif;\r\n}\r\n\r\nbody {\r\n  margin: 0;\r\n  background-color: black;\r\n}\r\n\r\n#container {\r\n  height: 100vh;\r\n  /* 背景 */\r\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_3___ + ");\r\n  background-repeat: no-repeat;\r\n  background-attachment: fixed; /* 固定在頁面上 */\r\n  background-size: auto 100%; /* 寬度自動 高度符合頁面 */\r\n  background-position: 78% 0%; /* x左平移 y不變 */\r\n  /* Layout */\r\n  display: flex;\r\n  flex-direction: column;\r\n}\r\n\r\n#header {\r\n  height: 48px;\r\n  background-color: rgba(0, 0, 0, 0.7);\r\n  /* Layout */\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n}\r\n\r\n#header p {\r\n  font-size: 22px;\r\n  color: #fff;\r\n  letter-spacing: 1px;\r\n}\r\n\r\n#form {\r\n  margin: auto 0px auto 0px;\r\n  padding: 0px 20px 0px 20px;\r\n  /* Layout */\r\n  display: flex;\r\n  flex-direction: column;\r\n  justify-content: center;\r\n}\r\n\r\n#form * {\r\n  height: 40px;\r\n  margin: 8px 0px 8px 0px;\r\n  font-size: 20px;\r\n  color: #333333;\r\n}\r\n\r\n#form input {\r\n  background-color: rgba(255, 255, 255, 0.8);\r\n  border: 0px;\r\n}\r\n\r\n#form #actions {\r\n  display: flex;\r\n  flex-direction: row;\r\n  justify-content: space-between;\r\n}\r\n\r\n#form #actions input {\r\n  flex: 1;\r\n  background-color: rgba(255, 255, 255, 0.8);\r\n  border: 0px;\r\n}\r\n\r\n#form #actions .space {\r\n  width: 10%;\r\n}\r\n\r\n#result {\r\n  position: relative;\r\n  margin: auto 20px auto 20px;\r\n  padding: 12px;\r\n  background-color: rgba(255, 255, 255, 0.8);\r\n  border-radius: 10px;\r\n  color: #333333;\r\n}\r\n\r\n#result * {\r\n  margin: 0px;\r\n}\r\n\r\n#result #title {\r\n  font-size: 22px;\r\n  font-weight: bold;\r\n}\r\n\r\n#result #content {\r\n  font-size: 18px;\r\n}\r\n\r\n#result #image {\r\n  margin-top: 15px;\r\n  width: 100%;\r\n  box-shadow: 1px 1px 2px #555555;\r\n}\r\n\r\n.close {\r\n  position: absolute;\r\n  margin: 0;\r\n  padding: 0;\r\n  top: 5px;\r\n  right: 5px;\r\n  width: 26px;\r\n}\r\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -29126,35 +29165,61 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
 var Form_1 = __importDefault(__webpack_require__(/*! ./Form */ "./src/Form.tsx"));
 var ResultText_1 = __importDefault(__webpack_require__(/*! ./ResultText */ "./src/ResultText.tsx"));
+var ResultImage_1 = __importDefault(__webpack_require__(/*! ./ResultImage */ "./src/ResultImage.tsx"));
+var mrt_map_jpg_1 = __importDefault(__webpack_require__(/*! ../assets/images/mrt-map.jpg */ "./assets/images/mrt-map.jpg"));
+var b_result_png_1 = __importDefault(__webpack_require__(/*! ../assets/images/b-result.png */ "./assets/images/b-result.png"));
 var App = function (props) {
-    var _a = react_1.default.useState(false), showResult = _a[0], setShowResult = _a[1];
-    var _b = react_1.default.useState(""), msgTitle = _b[0], setMsgTitle = _b[1];
-    var _c = react_1.default.useState(""), msgContent = _c[0], setMsgContent = _c[1];
+    var _a = react_1.default.useState(false), showResultText = _a[0], setShowResultText = _a[1];
+    var _b = react_1.default.useState(false), showResultImage = _b[0], setShowResultImage = _b[1];
+    var _c = react_1.default.useState(""), msgTitle = _c[0], setMsgTitle = _c[1];
+    var _d = react_1.default.useState(""), msgContent = _d[0], setMsgContent = _d[1];
+    var _e = react_1.default.useState(""), msgImage = _e[0], setMsgImage = _e[1];
+    var resultText = function (title, content) {
+        setShowResultText(true);
+        setMsgTitle(title);
+        setMsgContent(content);
+    };
+    var resultImage = function (title, image) {
+        setShowResultImage(true);
+        setMsgTitle(title);
+        setMsgImage(image);
+    };
     return (react_1.default.createElement("div", { id: "container" },
         react_1.default.createElement("div", { id: "header" },
             react_1.default.createElement("p", null, "Be Unsurpassed")),
-        !showResult ? (react_1.default.createElement(Form_1.default, { onSend: function (msg) {
-                setShowResult(true);
+        !showResultText && !showResultImage && (react_1.default.createElement(Form_1.default, { onSend: function (msg) {
                 switch (msg) {
-                    case "":
-                        setMsgTitle("標題");
-                        setMsgContent("內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容");
+                    case "IES":
+                        resultText("不會自己查字典哦？", "國際菁英高峰會(International Elite Summit)");
                         break;
-                    case "ya":
-                        setMsgTitle("YA");
-                        setMsgContent("答對了");
+                    case "莫":
+                    case "信":
+                    case "甲":
+                    case "化":
+                        resultText("你在說什麼阿？", "回去想想吧！");
                         break;
-                    case "中文":
-                        setMsgTitle("中文");
-                        setMsgContent("也可以哦");
+                    case "莫信甲化":
+                        resultImage("恭喜你，可以打開信封C了！", b_result_png_1.default);
+                        break;
+                    case "獾":
+                    case "贏":
+                    case "恛":
+                    case "葭":
+                        resultText("你在說什麼阿？", "回去想想吧！");
+                        break;
+                    case "獾贏恛葭":
+                        resultImage("恭喜你，請前往此地", mrt_map_jpg_1.default);
                         break;
                     default:
-                        setMsgTitle("笑死");
-                        setMsgContent("就憑這個訊息...你也想進入高峰會？");
+                        resultText("笑死", "就憑這個訊息...你也想進入高峰會？");
                         break;
                 }
-            } })) : (react_1.default.createElement(ResultText_1.default, { title: msgTitle, content: msgContent, onClose: function () {
-                setShowResult(false);
+            } })),
+        showResultText && (react_1.default.createElement(ResultText_1.default, { title: msgTitle, content: msgContent, onClose: function () {
+                setShowResultText(false);
+            } })),
+        showResultImage && (react_1.default.createElement(ResultImage_1.default, { title: msgTitle, image: msgImage, onClose: function () {
+                setShowResultImage(false);
             } }))));
 };
 exports.default = App;
@@ -29195,6 +29260,35 @@ exports.default = Form;
 
 /***/ }),
 
+/***/ "./src/ResultImage.tsx":
+/*!*****************************!*\
+  !*** ./src/ResultImage.tsx ***!
+  \*****************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+var baseline_close_black_18dp_png_1 = __importDefault(__webpack_require__(/*! ../assets/images/baseline_close_black_18dp.png */ "./assets/images/baseline_close_black_18dp.png"));
+var ResultImage = function (props) {
+    var title = props.title, image = props.image, onClose = props.onClose;
+    return (react_1.default.createElement("div", { id: "result" },
+        react_1.default.createElement("img", { className: "close", src: baseline_close_black_18dp_png_1.default, alt: "\u95DC\u9589", onClick: function () {
+                onClose();
+            } }),
+        react_1.default.createElement("p", { id: "title" }, title),
+        react_1.default.createElement("img", { id: "image", src: image, alt: "\u7D50\u679C\u5716\u7247" })));
+};
+exports.default = ResultImage;
+
+
+/***/ }),
+
 /***/ "./src/ResultText.tsx":
 /*!****************************!*\
   !*** ./src/ResultText.tsx ***!
@@ -29209,11 +29303,13 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+var baseline_close_black_18dp_png_1 = __importDefault(__webpack_require__(/*! ../assets/images/baseline_close_black_18dp.png */ "./assets/images/baseline_close_black_18dp.png"));
 var ResultText = function (props) {
     var title = props.title, content = props.content, onClose = props.onClose;
-    return (react_1.default.createElement("div", { id: "result", onClick: function () {
-            onClose();
-        } },
+    return (react_1.default.createElement("div", { id: "result" },
+        react_1.default.createElement("img", { className: "close", src: baseline_close_black_18dp_png_1.default, alt: "\u95DC\u9589", onClick: function () {
+                onClose();
+            } }),
         react_1.default.createElement("p", { id: "title" }, title),
         react_1.default.createElement("p", { id: "content" }, content)));
 };
